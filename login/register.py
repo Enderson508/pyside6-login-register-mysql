@@ -171,7 +171,7 @@ class registerWindow(QMainWindow):
         
         
 
-    #ABRIR TELA DE LOGIN
+    #ABRIR A TELA DE LOGIN
     def registerok(self):
         from .logar import loginWindow
         self.windowregister = loginWindow()
