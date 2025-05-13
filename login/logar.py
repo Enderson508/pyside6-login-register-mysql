@@ -149,7 +149,7 @@ class loginWindow(QMainWindow):
         )
         self.cursor = self.conexao.cursor()
     
-    #FUNÇÃO PARA ABRIR TELA DE REGISTRO
+    #FUNÇÃO PARA ABRIR A TELA DE REGISTRO
     def showregisterpage(self):
         self.register = registerWindow()
         self.register.show()
