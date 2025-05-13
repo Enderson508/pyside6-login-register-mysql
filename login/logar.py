@@ -155,7 +155,7 @@ class loginWindow(QMainWindow):
         self.register.show()
         self.close()
     
-    #FUNÇÃO PARA ABRIR JANELA
+    #FUNÇÃO PARA ABRIR A JANELA
     def loginok(self):
         self.janela = JanelaVazia()
         self.janela.setupWINDOW()
