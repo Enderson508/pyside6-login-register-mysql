@@ -40,7 +40,7 @@ class loginWindow(QMainWindow):
         self.content_layout.addSpacerItem(QSpacerItem(20, 10))
 
 
-        # TÍTULO
+        # TÍTULO DE LOGIN
         self.fonte_title = QTextBrowser()
         self.fonte_title.setText("<font size='20'><b>LOGIN</b></font>")
         self.fonte_title.setStyleSheet(
